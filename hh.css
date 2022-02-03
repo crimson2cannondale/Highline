@@ -1,0 +1,56 @@
+body { /*the body tag does not require a hashtag*/
+  background-color: #EEEEEE;
+  font-family: Copperplate;
+}
+
+a {
+  color: blue;
+}
+
+#container { /*identify HTML div tags with a hashtag*/
+  background-color: white;
+  width: 1000px;
+  margin-left: auto; /*will make your page centered*/
+  margin-right: auto;
+}
+
+#header {
+  background-color: #2e87ba;
+  color: white; /*changes font color*/
+  text-align: center; /*text-align can be used to center text, or move it to the left or right*/
+  padding: 10px; /*specifies the distance between div containers*/
+}
+
+#content {
+  padding: 10px;
+}
+
+#nav {
+  width: 120px;
+  float: left; /*moves a div container*/
+  padding: 10px;
+}
+
+#sites {
+  width: 120px;
+  float: left;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none; /*used to remove bullet points or numbers in an unordered list*/
+  padding: 0;
+}
+
+#main {
+  width: 700px;
+  float: right;
+}
+
+#footer {
+  color: white;
+  clear: both; /*will make sure the footer is actually at the bottom of the page*/
+  padding: 10px;
+  background-color: #999999;
+  text-align: right;
+}
