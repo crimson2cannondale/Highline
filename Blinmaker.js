@@ -28,10 +28,8 @@ if (eggsAmount < eggsMin || milkAmount < milkMin || flourAmount < flourMin) {
   var flourPortions = flourAmount / flourMin;
   var milkPortions = milkAmount / milkMin;
   document.write("you have " + flourPortions + " portions of flour<br>you have " + milkPortions + " portions of milk<br>");
-}
-
-var smallest;
-if (eggsAmount <= milkPortions && milkPortions <= flourPortions) {
+  var smallest;
+  if (eggsAmount <= milkPortions && milkPortions <= flourPortions) {
   smallest = eggsAmount;
 } else if (milkPortions <= flourPortions && milkPortions <= eggsAmount) {
   smallest = milkPortions;
@@ -44,3 +42,4 @@ document.write("you will need " + smallest * eggsMin + " eggs<br>");
 document.write("you will need " + smallest * flourMin + " mg of flour<br>");
 document.write("you will need " + smallest * milkMin + " ml of milk<br>");
 document.write("Blinmaker shutting down..");
+}
